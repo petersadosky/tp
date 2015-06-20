@@ -1,0 +1,65 @@
+Peter Sadosky
+Mentor: Anthony
+04/14/2015
+
+There are number of tools online for recommending restaurants:
+
+1) Google search
+When you type in 'chinese food' for example, Google displays a number of
+restaurants that try to fit your criteria. Google seems to base their 
+recommendations on a mix of location (close to you) and high average rating
+by their users. From the results, you can find the location, directions,
+phone number, and any other pertinent information.
+
+Room for improvement:
+Google doesn't seem to take into account your restaurant history or other
+preferences, as it just knows that you typed in a certain food. So there
+is no prior history to draw from. If you went to How Lee, for example from my
+'chinese food' search as the top result and didn't like it, then it will still 
+recommend it the next type you search.
+
+2) OpenTable
+When you search for a type of food on opentable, it will give a number of
+restaurants that fit your criteria. I couldn't find this online, as I imagine
+opentable wants to keep it a secret, but it seems possible that opentable
+can keep track of your restaurant history based on where you've reserved before,
+and then build a more accurate recommendation from there. Last year,
+Opentable bought Ness, which was a restaurant recommendation app, to help
+build their work-in-progress recommendation tools.
+
+Room for improvement:
+Doesn't give single recommendations, so you still have to pick from a big list,
+and so doesn't alleviate problems of people finding it hard to pick a
+restaurant to go to for dinner.
+
+3) Sosh
+Sosh is a lifestyle app for the phone, and aims to give curated recommendations
+for cool restaurants and other things happening in the city you're in. So they
+find 20 good restaurants, and suggest their users go to those. They build a
+preferences history, as users can rate how much they liked those suggestions.
+
+Room for improvement:
+Doesn't give single recommendations, doesn't draw from total pool of restaurants
+in a city. All recommendations are hand-done by Sosh employees, so things
+can't update automatically or generate very quickly.
+
+4) Nara
+Nara is a recommendation engine for restaurants. Users can build a profile of
+thumbs-up, thumbs-down for restaurants anywhere, and it will start to learn
+a user's preferences. This is probably the tool most like the one I want to
+make.
+
+Room for improvement:
+Only allows for binary (thumbs up, down) decisions, rather than a continuous
+or at least ordered scale of preferences.
+
+Some other tools are here:
+http://readwrite.com/2010/09/27/hungry_the_state_of_food_recommendation_engines
+
+They include recipe recommendations and other tools related to food.
+
+
+
+
+
+

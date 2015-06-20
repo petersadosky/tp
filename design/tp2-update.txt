@@ -1,0 +1,22 @@
+Update from tp1 to tp2
+Peter Sadosky
+Mentor: Anthony
+April 22, 2015
+
+For the second deliverable, I made a user interface for the restaurant
+recommendation engine. It uses Tkinter, and has a canvas on the right panel
+and a frame on the left panel. The left panel has Tkinter widgets for 
+a drop down menu to select restaurants from, and also a slider bar to select
+the rating for the restaurant. The right panel has the output text (or is
+very close to having it), and will also have the Uber and Google maps API calls
+to include those things on the graphic.
+
+I also worked on the geolocation, so the text of the ui and the restaurant
+options change depending on the user's location in the world.
+
+I made a training set of restaurants, so that the restaurant recommendtion
+can be compared against a set similarity base (so we can judge the accuracy
+of the recommendation). 
+
+I worked on using the Google maps API, so now we can download a map from
+where the user is to where the recommended restaurant is.

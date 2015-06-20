@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+ <status>OK</status>
+ <route>
+  <summary>Fifth Ave and I-376 W</summary>
+  <leg>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4440019</lat>
+     <lng>-79.9559556</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4437910</lat>
+     <lng>-79.9556988</lng>
+    </end_location>
+    <polyline>
+     <points>_fzuFvk_gNh@s@</points>
+    </polyline>
+    <duration>
+     <value>8</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Head &lt;b&gt;southeast&lt;/b&gt; on &lt;b&gt;University Pl&lt;/b&gt; toward &lt;b&gt;Fifth Ave&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>32</value>
+     <text>105 ft</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4437910</lat>
+     <lng>-79.9556988</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4377252</lat>
+     <lng>-79.9647417</lng>
+    </end_location>
+    <polyline>
+     <points>udzuFbj_gN|@rA~@vALPrB`DT^BD^j@d@n@r@jAdBfC\f@`ClDdA`BDHnCfEl@x@zCpE`@d@P\Vf@FLDNDLBTHr@BPDp@B\</points>
+    </polyline>
+    <duration>
+     <value>163</value>
+     <text>3 mins</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; onto &lt;b&gt;Fifth Ave&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>1031</value>
+     <text>0.6 mi</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4377252</lat>
+     <lng>-79.9647417</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4365582</lat>
+     <lng>-79.9662606</lng>
+    </end_location>
+    <polyline>
+     <points>y~xuFrbagNFVBPHZBBLNJXHNHLNLJHPJFDLHRJVTT\Zh@</points>
+    </polyline>
+    <duration>
+     <value>18</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; to stay on &lt;b&gt;Fifth Ave&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>188</value>
+     <text>0.1 mi</text>
+    </distance>
+    <maneuver>turn-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4365582</lat>
+     <lng>-79.9662606</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4362244</lat>
+     <lng>-79.9692262</lng>
+    </end_location>
+    <polyline>
+     <points>owxuFblagNVHD@BBDBDDBFBHBJ@P@d@@pADbC@rB?j@Ez@@n@</points>
+    </polyline>
+    <duration>
+     <value>22</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Slight &lt;b&gt;left&lt;/b&gt; onto the ramp to &lt;b&gt;Interstae 376&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>270</value>
+     <text>0.2 mi</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4362244</lat>
+     <lng>-79.9692262</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4368752</lat>
+     <lng>-79.9723614</lng>
+    </end_location>
+    <polyline>
+     <points>kuxuFt~agNKl@Mt@ELQ`AS|@ObAMrA?JEd@?BYpD</points>
+    </polyline>
+    <duration>
+     <value>16</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Merge onto &lt;b&gt;Boulevard of the Allies&lt;/b&gt; (signs for &lt;b&gt;I-376&lt;/b&gt;)</html_instructions>
+    <distance>
+     <value>276</value>
+     <text>0.2 mi</text>
+    </distance>
+    <maneuver>merge</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4368752</lat>
+     <lng>-79.9723614</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4341106</lat>
+     <lng>-79.9941571</lng>
+    </end_location>
+    <polyline>
+     <points>oyxuFfrbgNCLAJCRATAL?@?@AD?LA@?DEt@?@A@?@AN?PAR?@@L?JBPDTDPFPJPLRRVHJBDNR@??@HLFHFLDLDLDLBLBJ@JDf@Bp@@PDJXbHh@nIf@pHN|BZpEH`AF~@Fx@JbAXlCTjBLlALlAH~@FhADz@H~CJnDHzBHvADl@@J@B@VFh@?BHh@RhBR~AH`ADn@@\Bh@?V@R?^?v@ClAEpAClAClA</points>
+    </polyline>
+    <duration>
+     <value>85</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Merge onto &lt;b&gt;I-376 W&lt;/b&gt; via the ramp to &lt;b&gt;Downtown&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>1900</value>
+     <text>1.2 mi</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4341106</lat>
+     <lng>-79.9941571</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4360398</lat>
+     <lng>-79.9990341</lng>
+    </end_location>
+    <polyline>
+     <points>ehxuFnzfgNDPA`@Ch@Aj@Ct@Cd@C^A\AJAF?DAFAJEXIn@Gf@GVEVI`@Mh@I\IXQd@GPSf@CDSj@q@|AINMTGJKJA@CDGDIFMFKBA?]BOBQA</points>
+    </polyline>
+    <duration>
+     <value>38</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Take exit &lt;b&gt;71A&lt;/b&gt; on the &lt;b&gt;left&lt;/b&gt; for &lt;b&gt;Grant Street&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>504</value>
+     <text>0.3 mi</text>
+    </distance>
+    <maneuver>ramp-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4360398</lat>
+     <lng>-79.9990341</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4374861</lat>
+     <lng>-79.9979788</lng>
+    </end_location>
+    <polyline>
+     <points>gtxuF|xggN]UaAq@KGOK}@o@OGMIw@e@QM</points>
+    </polyline>
+    <duration>
+     <value>44</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Merge onto &lt;b&gt;Grant St&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>184</value>
+     <text>0.1 mi</text>
+    </distance>
+    <maneuver>merge</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4374861</lat>
+     <lng>-79.9979788</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4381950</lat>
+     <lng>-79.9998709</lng>
+    </end_location>
+    <polyline>
+     <points>i}xuFjrggNGVg@jBOj@K\aAjD</points>
+    </polyline>
+    <duration>
+     <value>53</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Third Avenue&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>178</value>
+     <text>0.1 mi</text>
+    </distance>
+    <maneuver>turn-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>40.4381950</lat>
+     <lng>-79.9998709</lng>
+    </start_location>
+    <end_location>
+     <lat>40.4389617</lat>
+     <lng>-79.9993484</lng>
+    </end_location>
+    <polyline>
+     <points>wayuFd~ggNeBgAq@_@</points>
+    </polyline>
+    <duration>
+     <value>44</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; at the 2nd cross street onto &lt;b&gt;Smithfield St&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>96</value>
+     <text>315 ft</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <duration>
+    <value>491</value>
+    <text>8 mins</text>
+   </duration>
+   <distance>
+    <value>4659</value>
+    <text>2.9 mi</text>
+   </distance>
+   <start_location>
+    <lat>40.4440019</lat>
+    <lng>-79.9559556</lng>
+   </start_location>
+   <end_location>
+    <lat>40.4389617</lat>
+    <lng>-79.9993484</lng>
+   </end_location>
+   <start_address>100-186 University Place, Pittsburgh, PA 15213, USA</start_address>
+   <end_address>400-410 Smithfield Street, Pittsburgh, PA 15222, USA</end_address>
+  </leg>
+  <copyrights>Map data ©2015 Google</copyrights>
+  <overview_polyline>
+   <points>_fzuFvk_gNh@s@|@rAlAhBlDrF|EjHfEnGtCpEhEjG`@d@P\^t@J\LhAHbAJt@Ll@PRTh@XZ\TTNj@`@p@fA\JRTFTBv@FtE@~CEz@@n@YbBWnAc@`CSdCYtDEXGx@ItAEz@@XHf@Lb@Xd@p@|@RXXv@FXFr@DbADJXbHpA`Sj@nId@~FjAtKPhCNzETjHNdCLpAp@vFNpBDfA@bCQzHDPA`@EtAMxCE`@Y|Be@zBm@nB}AvDWd@SVWTYJ_@Ba@@_BgAiBkAeAo@QMGVw@vCmAhEwCgB</points>
+  </overview_polyline>
+  <bounds>
+   <southwest>
+    <lat>40.4340250</lat>
+    <lng>-79.9998709</lng>
+   </southwest>
+   <northeast>
+    <lat>40.4440019</lat>
+    <lng>-79.9556988</lng>
+   </northeast>
+  </bounds>
+ </route>
+</DirectionsResponse>

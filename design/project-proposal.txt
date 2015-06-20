@@ -1,0 +1,73 @@
+Peter Sadosky
+Mentor: Anthony
+04/14/2015
+
+For this project, I want to build a restaurant recommendation engine. A user
+can input restaurants that they've been to in the past, along with the rating
+they would give to each, and the engine will output a restaurant that the user 
+would most like to go to next. 
+
+The data on individual restaurants comes from Yelp. Yelp provides a large
+dataset of restaurants in cities around the US, where each restaurant record
+has a number of field characteristics, like price, average rating, type of food,
+etc. 
+
+The first step is to determine where a user is, in order to output a restaurant 
+in their area. This can be done using an ip address lookup
+using the socket library and an online ip address lookup (scraped into python).
+
+The next step is to cluster restaurants into blocks based on similarity metrics.
+The primary approach here will be minwise hashing, which is a statistical 
+procedure for estimating the Jaccard similarity of two sets (restaurants in
+this context can be thought of as sets). Minwise hashing is ideal for this
+scenario because it handles noisy data well, and is computationally-efficient
+as the number of records grows. 
+
+Minwise hashing works by first shingling records one-by-one into substrings of 
+some length k. Next, shingles are converted to a characteristic matrix, where
+the rows of the matrix are restaurants and the columns are unique shingles.
+The elements of the matrix are populated with a binary (1, 0) decision as to
+whether the given shingle is contained in the corresponding record. Next,
+the row indices of the characteristic matrix are permuted through a series of 
+hash functions, enough times to converge on the true jaccard estimate. From
+here, the permutations are reduced to a signature matrix, which has a column
+for each set (record) and a row for each permutation. The elements are populated
+with the row of the first 1 found columnwise from the characteristic matrix.
+Then, with the signature matrix, two columns (records) can be compared in their
+level of agreement (union over total) to obtain jaccard for any two pairwise
+records. Pairs are iterated over to find similarity levels, and records that
+meet some threshold are mapped to a cluster. Through this process, we've
+reduced the dimensionality of the data, and grouped restaurants by similarity.
+
+Next, a user inputs the restaurants they've been to and the ratings.
+There will be drop down boxes for all the restaurants found in their area,
+and so they can select them and then select from a rating slider (1-5).
+The algorithm needs to be tuned here, as currently we select a cluster to dive 
+intobased on a tiebreaking series of finding which restaurant the user liked the
+most. Within a cluster, we make a recommendation based on finding the within-
+cluster distance for the restaurant closest to the user's preference. 
+
+This process needs to be improved, as we want to take into account some
+preferences revealed to the user not necessarily present in the blocks. If
+they've only eaten at Italian restaurants, perhaps we want to recommend another
+or assume that they want to try something new. These decisions need to be worked
+on, and maybe some heuristics can be built.
+
+Once the restaurant has been recommended, the user will get the name of the
+restaurant, along with a Google Map of the directions from where they 
+currently are to where the restaurant is. A menu will also be displayed if
+applicable from OpenTable.
+Other sorts of things like this can be explored if time permits, like making
+an Uber request using the new api.  
+
+Outside modules used:
+pandas
+json
+argparse
+string
+random
+geoip-geolite2
+
+
+
+

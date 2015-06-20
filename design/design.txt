@@ -1,0 +1,68 @@
+Problem solving:
+
+Often times, I feel like I and many other people get stuck in a rut of
+restaurants we go to, and are less willing to try new places. Maybe we get
+familiar or comfortable with the places we always go to.
+
+This app tries to solve that problem, by recommending and expanding people's
+ideas of where they can go, and what kind of places they will like. One of the
+barriers to trying new places is that maybe we won't like the food. But with
+this thing, I try to ensure that the recommendation is something the user 
+will definitely like.
+
+The benefits of this are ranging, from increased economic activity in 
+potentially lower-income neighborhoods where people wouldn't normally look
+for restaurants, to just increased well-being of people living in cities.
+
+
+
+General approach:
+
+Modules - Pandas is used to manage the restaurant databases, 
+geolite is used to get the user's real world location, 
+and pil is used to plot the google image on the canvas. Other modules are 
+base ones to do data analysis and clustering. Numpy is used to increase
+the efficiency of comparing records. It provides a better framework than
+normal python for data inputs (it uses array objects).
+
+I take all of the restaurants I have access to from a Yelp database, split them
+by city, and cluster them based on their features (variable fields).
+
+Clusters are formed based on a similarity drawn from a minwise hashing 
+procedure. Minwise hashing is a statistical procedure that reduces the 
+dimensionality of the records, which allows for a clustering method much 
+much faster than pairwise comparisons of each record (an at least O(n^2) 
+operation).
+
+Once clusters are formed, we look at the input restaurants, and find which
+clusters those restaurants fall into. We select a cluster by finding which
+restaurant the user likes the most, or an average of highly-rated restaurants.
+Once we have selected a cluster from which to make a recommendation, we
+use a Euclidean distance formula for finding the restaurant most similar
+to the ones given by the user's revealed cluster preferences.
+
+This gives us a recommendation. We then use it to find its location and call
+two Google APIs (directions and static map) to get the map objects.
+
+There's also a feedback loop, as users can say it was a bad recommendation,
+and then that one won't be given in the future. With many users, this helps
+to learn the preferences of people and improve the power of recommendations.
+
+
+
+UI:
+I wanted to make the UI simple and not have a need for an instructions page
+(a user could just see naturally what they were supposed to do). I tried
+to make the title question large so that's the first thing you see, and then
+it's obvious that you are supposed to choose from the drop down boxes.
+I thought the slider would make the process a little fun, since at least I like
+sliding it to choose a rating.
+
+Some of the other apps in this space, like Sosh, Nara, and Google, use a
+feedback system to inform future recommendations. I built this into my app,
+since I think it's a really good way of improving a process that can sometimes
+be hard to determine how well it is working. So it's like a self-improving 
+procedure.
+
+All those apps are also clean and the UIs are minimal, something I tried
+to replicate here. It makes the user experience better on those sites I think.
